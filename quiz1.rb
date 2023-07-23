@@ -32,7 +32,7 @@ def string_lengths(sentence)
   word_lengths
 end
 
-=end
+*this one doesn't work; counter seems to be the issue?
 
 def string_lengths(sentence)
   strings = sentence.split
@@ -45,5 +45,8 @@ def string_lengths(sentence)
   end
   lengths
 end
+
+=end
+
 
 p string_lengths('To be or not to be')
